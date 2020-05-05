@@ -36,6 +36,7 @@ class UserPanel extends React.Component {
 
   render() {
     const { user } = this.state;
+
     return (
       <Grid style={{ background: '#4c3c4c' }}>
         <Grid.Column>
@@ -46,7 +47,7 @@ class UserPanel extends React.Component {
               <Header.Content>DevChat</Header.Content>
             </Header>
 
-            {/* User Dropdown */}
+            {/* User Dropdown  */}
             <Header style={{ padding: '0.25em' }} as='h4' inverted>
               <Dropdown
                 trigger={
