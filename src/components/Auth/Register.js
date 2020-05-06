@@ -144,7 +144,7 @@ class Register extends React.Component {
                 name='username'
                 icon='user'
                 iconPosition='left'
-                placeholder='username'
+                placeholder='Username'
                 onChange={this.handleChange}
                 value={username}
                 type='text'
@@ -190,6 +190,8 @@ class Register extends React.Component {
                 disabled={loading}
                 className={loading ? 'loading' : ''}
                 color='orange'
+                fluid
+                size='large'
               >
                 Submit
               </Button>

@@ -96,6 +96,8 @@ class Login extends React.Component {
                 disabled={loading}
                 className={loading ? 'loading' : ''}
                 color='violet'
+                fluid
+                size='large'
               >
                 Submit
               </Button>
